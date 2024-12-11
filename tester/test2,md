@@ -1,4 +1,4 @@
-xxxxI'll provide a detailed description of the AI Agents app and its architecture. Let me think through this carefully to ensure I cover all the important aspects.
+xx22xxI'll provide a detailed description of the AI Agents app and its architecture. Let me think through this carefully to ensure I cover all the important aspects.
 
 Here's a detailed description of the AI Agents app:
 
@@ -34,55 +34,55 @@ The AI Agents app is a workflow automation platform that leverages AI agents to 
 
 ```plaintext
 /
-âââ app/
-â   âââ api/
-â   â   âââ agent/
-â   â   âââ chat/
-â   â   âââ execute-action/
-â   â   âââ execute-workflow/
-â   â   âââ icp/
-â   â   âââ workflow/
-â   âââ agents/
-â   â   âââ [id]/
-â   â   âââ icp-management/
-â   âââ workflows/
-â   â   âââ [id]/
-â   âââ layout.tsx
-â   âââ page.tsx
-âââ components/
-â   âââ icp/
-â   âââ ui/
-â   âââ AgentCard.tsx
-â   âââ AgentList.tsx
-â   âââ AgentPage.tsx
-â   âââ CreateAgentForm.tsx
-â   âââ CreateWorkflowForm.tsx
-â   âââ ErrorBoundary.tsx
-â   âââ Navigation.tsx
-â   âââ Providers.tsx
-â   âââ WorkflowCard.tsx
-â   âââ WorkflowList.tsx
-â   âââ WorkflowVisualization.tsx
-âââ contexts/
-â   âââ ICPContext.tsx
-âââ lib/
-â   âââ services/
-â   â   âââ firestore.ts
-â   âââ firebase-admin.ts
-â   âââ firebase.ts
-â   âââ types.ts
-â   âââ utils.ts
-âââ public/
-âââ styles/
-â   âââ globals.css
-âââ .env.local
-âââ .gitignore
-âââ next.config.js
-âââ package.json
-âââ README.md
-âââ tailwind.config.js
-âââ tsconfig.json
-âââ vercel.json
+Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂ app/
+Ã¢ÂÂ   Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂ api/
+Ã¢ÂÂ   Ã¢ÂÂ   Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂ agent/
+Ã¢ÂÂ   Ã¢ÂÂ   Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂ chat/
+Ã¢ÂÂ   Ã¢ÂÂ   Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂ execute-action/
+Ã¢ÂÂ   Ã¢ÂÂ   Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂ execute-workflow/
+Ã¢ÂÂ   Ã¢ÂÂ   Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂ icp/
+Ã¢ÂÂ   Ã¢ÂÂ   Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂ workflow/
+Ã¢ÂÂ   Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂ agents/
+Ã¢ÂÂ   Ã¢ÂÂ   Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂ [id]/
+Ã¢ÂÂ   Ã¢ÂÂ   Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂ icp-management/
+Ã¢ÂÂ   Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂ workflows/
+Ã¢ÂÂ   Ã¢ÂÂ   Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂ [id]/
+Ã¢ÂÂ   Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂ layout.tsx
+Ã¢ÂÂ   Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂ page.tsx
+Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂ components/
+Ã¢ÂÂ   Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂ icp/
+Ã¢ÂÂ   Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂ ui/
+Ã¢ÂÂ   Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂ AgentCard.tsx
+Ã¢ÂÂ   Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂ AgentList.tsx
+Ã¢ÂÂ   Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂ AgentPage.tsx
+Ã¢ÂÂ   Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂ CreateAgentForm.tsx
+Ã¢ÂÂ   Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂ CreateWorkflowForm.tsx
+Ã¢ÂÂ   Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂ ErrorBoundary.tsx
+Ã¢ÂÂ   Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂ Navigation.tsx
+Ã¢ÂÂ   Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂ Providers.tsx
+Ã¢ÂÂ   Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂ WorkflowCard.tsx
+Ã¢ÂÂ   Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂ WorkflowList.tsx
+Ã¢ÂÂ   Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂ WorkflowVisualization.tsx
+Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂ contexts/
+Ã¢ÂÂ   Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂ ICPContext.tsx
+Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂ lib/
+Ã¢ÂÂ   Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂ services/
+Ã¢ÂÂ   Ã¢ÂÂ   Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂ firestore.ts
+Ã¢ÂÂ   Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂ firebase-admin.ts
+Ã¢ÂÂ   Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂ firebase.ts
+Ã¢ÂÂ   Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂ types.ts
+Ã¢ÂÂ   Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂ utils.ts
+Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂ public/
+Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂ styles/
+Ã¢ÂÂ   Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂ globals.css
+Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂ .env.local
+Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂ .gitignore
+Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂ next.config.js
+Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂ package.json
+Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂ README.md
+Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂ tailwind.config.js
+Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂ tsconfig.json
+Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂ vercel.json
 ```
 
 
